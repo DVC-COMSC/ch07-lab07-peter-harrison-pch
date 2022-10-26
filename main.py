@@ -11,3 +11,8 @@ for i in range(len(numbers1)):
 # ******************************
 # Make your Code
 # ******************************
+numbers2 = []
+for i in range(len(numbers1)//2):
+	numbers2.append(numbers1.pop(i))
+
+print(numbers1, numbers2)
